@@ -1,0 +1,95 @@
+/* Estilos gerais da página */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e1f1f7; /* Fundo atualizado */
+}
+
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Seção de opções */
+.options {
+    margin: 30px 0;
+}
+
+.options h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Descrição */
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    max-width: 500px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}

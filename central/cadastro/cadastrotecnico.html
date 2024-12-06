@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Técnico</title>
+    <link rel="stylesheet" href="stylecadtecnico.css"> <!-- Seu arquivo CSS -->
+</head>
+<body>
+    <!-- Container do formulário centralizado -->
+    <div class="form-container">
+        <h1>Cadastro de Técnico</h1>
+        <form id="cadastroForm">
+            <!-- Nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <!-- E-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <!-- Senha -->
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <!-- Endereço -->
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" required>
+
+            <!-- Telefone -->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+            <!-- Botão de cadastro -->
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+    <!-- Adicionando o script JavaScript -->
+    <script src="script.js"></script> <!-- Arquivo JS com a lógica de captura e envio dos dados -->
+</body>
+</html>

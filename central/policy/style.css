@@ -1,0 +1,152 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #373737;
+    color: white;
+}
+
+.header .title .logo {
+    width: 150px;
+}
+
+.header .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.header .menu a:hover {
+    text-decoration: underline;
+}
+
+.header .user-options {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-options .entrar p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.header .user-options .iconeperfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.entrar a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.entrar a:hover {
+    color: #008cba;
+}
+
+
+/* Estilo da seção */
+.policy, .terms {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principais */
+.policy h1, .terms h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0088cc;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+.policy h2, .terms h2 {
+    font-size: 1.6rem;
+    color: #005f99;
+    margin-top: 20px;
+}
+
+/* Conteúdo de texto */
+.policy-content, .terms-content {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.policy-content ul, .terms-content ul {
+    padding-left: 20px;
+}
+
+.policy-content ul li, .terms-content ul li {
+    margin: 5px 0;
+}
+
+/* Ícones */
+.privacy-icon {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+    height: auto;
+}
+
+/* Imagens */
+.visual-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.policy-image, .terms-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #373737;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}

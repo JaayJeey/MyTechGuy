@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação Técnica</title>
+    <link rel="stylesheet" href="styleformtecnica.css"> <!-- Seu arquivo CSS -->
+</head>
+<body>
+    <!-- Container do formulário centralizado -->
+    <div class="form-container">
+        <h1>Formação Técnica</h1>
+        <form id="formacaoForm">
+            <!-- Nome do Curso -->
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso" placeholder="Ex: Técnico em Informática" required>
+
+            <!-- Instituição -->
+            <label for="instituicao">Instituição:</label>
+            <input type="text" id="instituicao" name="instituicao" placeholder="Ex: Etec Embu das Artes" required>
+
+            <!-- Data de Início -->
+            <label for="inicio">Data de Início:</label>
+            <input type="date" id="inicio" name="inicio" required>
+
+            <!-- Data de Conclusão -->
+            <label for="conclusao">Data de Conclusão:</label>
+            <input type="date" id="conclusao" name="conclusao" required>
+
+            <!-- Botão de cadastro -->
+            <input type="submit" value="Cadastrar Formação">
+        </form>
+    </div>
+
+    <!-- Adicionando o script JavaScript -->
+    <script src="script.js"></script> <!-- Arquivo JS com a lógica de captura e envio dos dados -->
+</body>
+</html>

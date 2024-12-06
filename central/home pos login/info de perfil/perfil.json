@@ -1,0 +1,23 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "João Paulo Alves",
+        "email": "joaopaulo@exemplo.com",
+        "telefone": "(11) 98461-9450",
+        "endereco": "Avenida Francisco Ettore Pedro Mari, Taboão da Serra, SP",
+        "cpf": "123.456.789-00"
+      }
+    ],
+    "tecnicos": [
+      {
+        "id": 1,
+        "nome": "Carlos Silva",
+        "email": "carlos.silva@exemplo.com",
+        "telefone": "(11) 98888-1234",
+        "especialidades": "Suporte técnico em smartphones, computadores e televisores.",
+        "cpf": "987.654.321-00"
+      }
+    ]
+  }
+  

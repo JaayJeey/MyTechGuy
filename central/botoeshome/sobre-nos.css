@@ -1,0 +1,135 @@
+/* Estilo Geral */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #007bff; /* Cor de fundo característica */
+    color: #EDEDED;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #262626;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    width: 98%;
+    height: 7%;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para links no menu de navegação */
+.menu a {
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease;
+    
+}
+
+.menu a:hover {
+    color: #00A1FF; /* Cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao hover, se desejado */
+}
+.title img {
+    width: 120px;
+    height: auto;
+}
+
+
+.about-image {
+    height: 80%;
+    width: 80%;
+    
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.entrar p {
+    margin: 0;
+}
+
+.entrar a {
+    text-decoration: none;
+    color: #007bff; /* Verde característico */
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.iconeperfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Conteúdo Principal */
+.main-container {
+    margin-top: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us {
+    background: linear-gradient(135deg, #4395b5, #262626);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+}
+
+.about-us h1 {
+    color: #43b1b5;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-us .highlight {
+    color: #43b1b5; /* Dourado */
+    font-weight: bold;
+}
+
+.about-us .commitment {
+    font-size: 1.3em;
+    color: #43b1b5;
+    margin-top: 20px;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 1000px;
+}
+
+footer nav a {
+    color: #4BB543;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+{
+    "chamados": [
+        {
+            "id": 1,
+            "titulo": "Problema com login",
+            "descricao": "O cliente não consegue fazer login no sistema",
+            "status": "Aberto",
+            "data_abertura": "2024-12-01T10:00:00"
+        },
+        {
+            "id": 2,
+            "titulo": "Erro no sistema de pagamento",
+            "descricao": "O sistema não processa os pagamentos corretamente",
+            "status": "Em Andamento",
+            "data_abertura": "2024-12-02T14:00:00"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="stylecadcliente.css"> <!-- Seu arquivo CSS -->
+</head>
+<body>
+    <!-- Container do formulário centralizado -->
+    <div class="form-container">
+        <h1>Cadastro de Cliente</h1>
+        <form id="cadastroClienteForm">
+            <!-- Nome -->
+            <label for="nome_cliente">Nome:</label>
+            <input type="text" id="nome_cliente" name="nome_cliente" placeholder="Digite seu nome" required>
+
+            <!-- E-mail -->
+            <label for="email_cliente">E-mail:</label>
+            <input type="email" id="email_cliente" name="email_cliente" placeholder="Digite seu e-mail" required>
+
+            <!-- Senha -->
+            <label for="senha_cliente">Senha:</label>
+            <input type="password" id="senha_cliente" name="senha_cliente" placeholder="Digite sua senha" required>
+
+            <!-- Endereço -->
+            <label for="endereco_cliente">Endereço:</label>
+            <input type="text" id="endereco_cliente" name="endereco_cliente" placeholder="Digite seu endereço" required>
+
+            <!-- Telefone -->
+            <label for="telefone_cliente">Telefone:</label>
+            <input type="tel" id="telefone_cliente" name="telefone_cliente" placeholder="Digite seu telefone" required>
+
+            <!-- Botão de cadastro -->
+            <input type="submit" value="Cadastrar Cliente">
+        </form>
+    </div>
+
+    <!-- Adicionando o script JavaScript -->
+    <script src="script.js"></script> <!-- Arquivo JS com a lógica de captura e envio dos dados -->
+</body>
+</html>

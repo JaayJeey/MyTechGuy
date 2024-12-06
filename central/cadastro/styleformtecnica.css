@@ -1,0 +1,63 @@
+/* Estilo geral do body para centralizar o conteúdo */
+body {
+    display: flex; /* Define o layout do body como flexbox */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura como 100% da janela de visualização */
+    margin: 0; /* Remove margens padrão */
+    font-family: Arial, sans-serif; /* Define a fonte para Arial */
+    background-color: #e1f1f7; /* Define uma cor de fundo suave */
+}
+
+/* Container do formulário para centralização e estilização */
+.form-container {
+    width: 100%; /* O container ocupa 100% da largura disponível */
+    max-width: 400px; /* Define uma largura máxima */
+    padding: 20px; /* Adiciona preenchimento interno */
+    background-color: #ffffff; /* Define o fundo como branco */
+    border-radius: 8px; /* Arredonda os cantos do container */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Títulos do formulário */
+h1 {
+    color: #333; /* Define a cor do título como cinza escuro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+/* Define o estilo para o formulário */
+form {
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: 10px; /* Adiciona espaço entre os elementos */
+}
+
+/* Estilo dos campos de entrada e menus de seleção */
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%; /* Cada campo ocupa toda a largura do container */
+    padding: 10px; /* Adiciona preenchimento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda leve */
+    border-radius: 5px; /* Arredonda os cantos dos campos */
+    box-sizing: border-box; /* Inclui o padding na largura total */
+}
+
+/* Estilo do botão de cadastro */
+input[type="button"] {
+    background-color: #007bff; /* Define a cor do botão */
+    color: white; /* Define a cor do texto */
+    padding: 10px; /* Adiciona preenchimento interno */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como pointer */
+    font-size: 1em; /* Define o tamanho da fonte */
+    margin-top: 15px; /* Adiciona espaço acima do botão */
+}
+
+/* Estilo do botão ao passar o mouse */
+input[type="button"]:hover {
+    background-color: #0056b3; /* Escurece a cor ao passar o mouse */
+}

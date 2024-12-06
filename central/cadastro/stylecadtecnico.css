@@ -1,0 +1,81 @@
+/* Estilo do body para centralizar o conteúdo */
+body {
+    display: flex; /* Usa o modelo flexbox para organizar os elementos */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o conteúdo ocupe 100% da altura da janela */
+    margin: 0; /* Remove a margem padrão do body */
+    font-family: Arial, sans-serif; /* Define a fonte para Arial, sem serifa */
+    background-color: #e1f1f7; /* Define um fundo claro e suave para a página */
+    padding: 20px; /* Adiciona um pouco de espaço ao redor do conteúdo */
+}
+
+/* Container do formulário centralizado */
+.form-container {
+    width: 100%; /* O container ocupa 100% da largura disponível */
+    max-width: 500px; /* Limita a largura máxima para 500px */
+    padding: 20px; /* Adiciona espaço interno dentro do container */
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    border-radius: 8px; /* Arredonda os cantos do container */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    box-sizing: border-box; /* Garante que o padding e as bordas sejam contados dentro da largura total */
+}
+
+/* Títulos do formulário */
+h1, h2 {
+    text-align: center; /* Centraliza os títulos na tela */
+    color: #333; /* Cor escura para os títulos */
+    margin: 0; /* Remove a margem padrão */
+}
+
+h2 {
+    margin-bottom: 20px; /* Adiciona um espaçamento inferior entre o título h2 e o resto */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte do subtítulo */
+    color: #555; /* Cor um pouco mais clara que o título principal */
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex; /* Usa flexbox para os itens dentro do formulário */
+    flex-direction: column; /* Organiza os elementos em uma coluna (um abaixo do outro) */
+    gap: 15px; /* Adiciona espaço entre os elementos do formulário */
+}
+
+/* Rótulo e campos de entrada */
+label {
+    font-weight: bold; /* Deixa o texto do rótulo em negrito */
+    color: #333; /* Cor do texto dos rótulos */
+    margin-bottom: 5px; /* Adiciona espaço entre o rótulo e o campo de entrada */
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%; /* Faz com que os campos ocupem toda a largura disponível */
+    padding: 10px; /* Adiciona preenchimento dentro dos campos */
+    border: 1px solid #ccc; /* Define uma borda leve e suave ao redor dos campos */
+    border-radius: 5px; /* Arredonda os cantos dos campos */
+    box-sizing: border-box; /* Faz com que o padding e a borda sejam incluídos nas dimensões totais do campo */
+    margin-bottom: 10px; /* Adiciona espaço abaixo de cada campo */
+}
+
+/* Botão de envio */
+input[type="submit"] {
+    background-color: #007bff; /* Define a cor de fundo do botão como azul */
+    color: white; /* A cor do texto dentro do botão é branca */
+    padding: 10px; /* Adiciona um preenchimento interno ao botão */
+    border: none; /* Remove qualquer borda ao redor do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Mostra o cursor de clique quando passar o mouse sobre o botão */
+    font-size: 1em; /* Define o tamanho da fonte do texto do botão */
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+}
+
+/* Botão de envio quando passa o mouse */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Quando o mouse passa por cima, a cor de fundo escurece */
+}

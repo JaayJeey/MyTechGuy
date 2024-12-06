@@ -1,0 +1,101 @@
+/* Estilo do body para centralizar o conteúdo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1f1f7;
+    padding: 20px;
+}
+
+/* Container do formulário centralizado */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Título do formulário */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo dos rótulos dos campos */
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos campos de entrada (e-mail e senha) */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Remove o comportamento de diminuição do campo ao digitar */
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Estilo do botão de login */
+#entrar input[type="submit"],
+#novaconta input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Efeito de hover nos botões */
+#entrar input[type="submit"]:hover,
+#novaconta input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo dos links de "Esqueceu a senha?" e "Criar nova conta" */
+#esqueceu p,
+#novaconta p {
+    text-align: center;
+}
+
+#esqueceu a,
+#novaconta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#esqueceu a:hover,
+#novaconta a:hover {
+    text-decoration: underline;
+}

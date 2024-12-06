@@ -1,0 +1,12 @@
+[
+    {
+        "email": "cliente@example.com",
+        "senha": "12345",
+        "tipo": "cliente"
+    },
+    {
+        "email": "tecnico@example.com",
+        "senha": "67890",
+        "tipo": "tecnico"
+    }
+]
